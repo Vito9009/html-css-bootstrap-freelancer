@@ -7,10 +7,14 @@
 a{
     text-decoration: none;
 }
-
-.test-box{
+.square-box{
     width: 100px;
     height: 100px;
+}
+
+.test-box{
+    width: 300px;
+    height: 150px;
 }
 
 /* COLORI DI SFONDO */
