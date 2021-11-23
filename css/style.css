@@ -8,6 +8,17 @@ a{
     text-decoration: none;
 }
 
+.test-box{
+    width: 100px;
+    height: 100px;
+}
+
+/* COLORI DI SFONDO */
+
 .dark-blue{
     background-color: rgb(44, 62, 80);
+}
+
+.marine-green{
+    background-color: rgb(26, 188, 156);
 }
