@@ -23,10 +23,14 @@ a{
 
 /* COLORI DI SFONDO */
 
-.dark-blue{
+.dark-grey{
     background-color: rgb(44, 62, 80);
 }
 
 .marine-green{
     background-color: rgb(26, 188, 156);
+}
+
+.dark-blue{
+    background-color: rgb(58, 84, 109);
 }
