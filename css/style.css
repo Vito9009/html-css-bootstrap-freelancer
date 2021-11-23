@@ -13,8 +13,12 @@ a{
 }
 
 .test-box{
-    width: 300px;
-    height: 150px;
+    width: 200px;
+    height: 120px;
+}
+
+.nav-min-width{
+    min-width: 90px;
 }
 
 /* COLORI DI SFONDO */
