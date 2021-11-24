@@ -25,6 +25,10 @@ img{
     width: 300px;
 }
 
+.my_dark_star.contact-section{
+    width: 200px;
+}
+
 i.fas.fa-star{
     padding: 0 5px;
 }
@@ -54,6 +58,12 @@ i.fas.fa-star{
 
 .img_portfolio{
     width: 100%;
+}
+
+.my_border-form{
+    border: 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    border-radius: 0;
 }
 
 /* COLORI DI SFONDO */
