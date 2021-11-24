@@ -7,15 +7,6 @@
 a{
     text-decoration: none;
 }
-.square-box{
-    width: 100px;
-    height: 100px;
-}
-
-.test-box{
-    width: 200px;
-    height: 120px;
-}
 
 img{
     width: 200px;
@@ -76,14 +67,14 @@ i.fas.fa-star{
 
 /* COLORI DI SFONDO */
 
-.dark-grey{
+.my_dark-grey{
     background-color: rgb(44, 62, 80);
 }
 
-.marine-green{
+.my_marine-green{
     background-color: rgb(26, 188, 156);
 }
 
-.dark-blue{
+.my_dark-blue{
     background-color: rgb(58, 84, 109);
 }
