@@ -17,8 +17,27 @@ a{
     height: 120px;
 }
 
-.nav-min-width{
-    min-width: 90px;
+img{
+    width: 200px;
+}
+
+.my_star{
+    width: 300px;
+}
+
+i.fas.fa-star{
+    padding: 0 5px;
+}
+
+.my_star::after, .my_star::before{
+    content: "";
+    display: inline-block;
+    width: 25%;
+    height: 3px;
+    line-height: 3px;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
 }
 
 /* COLORI DI SFONDO */
