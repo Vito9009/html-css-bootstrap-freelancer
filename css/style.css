@@ -21,7 +21,7 @@ img{
     width: 200px;
 }
 
-.my_star{
+.my_star, .my_dark_star{
     width: 300px;
 }
 
@@ -29,15 +29,31 @@ i.fas.fa-star{
     padding: 0 5px;
 }
 
-.my_star::after, .my_star::before{
+.my_star::after, .my_star::before,
+.my_dark_star::after, .my_dark_star::before{
     content: "";
     display: inline-block;
     width: 25%;
     height: 3px;
     line-height: 3px;
     vertical-align: middle;
-    background-color: rgb(255, 255, 255);
     border-radius: 1px;
+}
+
+.my_star::after, .my_star::before{
+    background-color: rgb(255, 255, 255);
+}
+
+.my_dark_star::after, .my_dark_star::before{
+    background-color: rgb(44, 62, 80);
+}
+
+.my_dark_star i.fas.fa-star{
+    color: rgb(44, 62, 80);
+}
+
+.img_portfolio{
+    width: 100%;
 }
 
 /* COLORI DI SFONDO */
