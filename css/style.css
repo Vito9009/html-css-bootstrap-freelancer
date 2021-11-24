@@ -66,6 +66,14 @@ i.fas.fa-star{
     border-radius: 0;
 }
 
+.my_social-icon a{
+    color: rgb(255, 255, 255);
+}
+
+.my_creator-link{
+    color: rgb(26, 188, 156);
+}
+
 /* COLORI DI SFONDO */
 
 .dark-grey{
